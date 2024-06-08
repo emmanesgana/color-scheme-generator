@@ -4,4 +4,4 @@
 
 ## Preview
 
-![alt text](https://github.com/emmanesgana/color-scheme-generator/blob/main/preview/preview.png))
+![alt text](https://github.com/emmanesgana/color-scheme-generator/blob/main/preview/preview.png)
