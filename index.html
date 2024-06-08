@@ -4,38 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Color Scheme Generator</title>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1 class="title">
             Color Scheme Generator
         </h1>
-    </header>
+    </header> -->
     <main>
-        <section>
-            <div class="container">
-                <input type="color" id="color-picker">
-                <select name="colors" id="color-option">
-                    <option value="monochrome" name="monochrome">Monochrome</option>
-                    <option value="monochrome-dark" name="monochrome-dark">Monochrome-dark</option>
-                    <option value="monochrome-light" name="monochrome-light">Monochrome-light</option>
-                    <option value="analogic" name="analogic">Analogic</option>
-                    <option value="complement" name="complement">Complement</option>
-                    <option value="analogic-complement" name="analogic-complement">Analogic-complement</option>
-                    <option value="triad" name="triad">Triad</option>
-                    <option value="quad" name="quad">Quad</option>
-                </select>
-                <button id="generate-color">Generate</button>
+        <div id="form-container">
+            <input type="color" id="color-picker">
+            <select name="colors" id="color-option">
+                <option value="monochrome" name="monochrome">Monochrome</option>
+                <option value="monochrome-dark" name="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light" name="monochrome-light">Monochrome-light</option>
+                <option value="analogic" name="analogic">Analogic</option>
+                <option value="complement" name="complement">Complement</option>
+                <option value="analogic-complement" name="analogic-complement">Analogic-complement</option>
+                <option value="triad" name="triad">Triad</option>
+                <option value="quad" name="quad">Quad</option>
+            </select>
+            <button id="generate-button">Get Color Scheme</button>
+        </div>
+        <div id="color-container">
+            <!-- <div class="color-column">
+                <div id="color-display" class="color-image" onclick="copyToClipboard(0)"></div>
+                <p id="color-hex" class="color-hex" onclick="copyToClipboard(0)"></p>
             </div>
-        </section>
-        <section>
-            <div class="container">
-
+            <div class="color-column">
+                <div id="color-display" class="color-image" onclick="copyToClipboard(1)"></div>
+                <p id="color-hex" class="color-hex" onclick="copyToClipboard(1)"></p>
             </div>
-        </section>
+            <div class="color-column">
+                <div id="color-display" class="color-image" onclick="copyToClipboard(2)"></div>
+                <p id="color-hex" class="color-hex" onclick="copyToClipboard(2)"></p>
+            </div>
+            <div class="color-column">
+                <div id="color-display" class="color-image" onclick="copyToClipboard(3)"></div>
+                <p id="color-hex" class="color-hex" onclick="copyToClipboard(3)"></p>
+            </div>
+            <div class="color-column">
+                <div id="color-display" class="color-image" onclick="copyToClipboard(4)"></div>
+                <p id="color-hex" class="color-hex" onclick="copyToClipboard(4)"></p> -->
+        </div>
+        </div>
     </main>
 
     <script src="index.js"></script>
